@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href= 
 "//cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         *{
             padding: 0px;
@@ -21,6 +22,7 @@
             display: flex;
             text-align: center;
             justify-content: space-between;
+            background-color: #fff;
         }
         .left i{
             font-size: 30px;
@@ -51,7 +53,7 @@
         .hide{
             position: fixed;
             top: 50px;
-            right: -40%;
+            right: -60%;
             width: 200px;
             height: auto;
             background-color: rgba(0,0,0,0.3);
@@ -97,14 +99,6 @@
             display: block;
         }
         .hide{
-            position: fixed;
-            top: 50px;
-            right: -40%;
-            width: 200px;
-            height: auto;
-            background-color: rgba(0,0,0,0.3);
-            border-radius: 10px;
-            box-shadow: -5px 5px 5px rgba(0,0,0,0.9);
             padding: 7px;
             
         }
@@ -136,7 +130,7 @@
         function fun(){
             var a=document.getElementById("hide");
             if(a.style.right=="30px"){
-                a.style.right="-40%";
+                a.style.right="-60%";
                 a.style.transition="2s";
             }else{
             a.style.right="30px";
@@ -146,7 +140,7 @@
         }
         function hid(){
             var a=document.getElementById("hide");
-            a.style.right="-40%";
+            a.style.right="-60%";
             a.style.transition="2s";
         }
     </script>
